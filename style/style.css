@@ -1,0 +1,38 @@
+@charset"UTF-8";
+h1{
+    cursor: pointer;
+}
+div#outer{
+    width: 200px;
+    height: 100px;
+    border: 1px solid #00f;
+    margin-left: 400px;
+    overflow: hidden;
+/*    외부영역,출력 공간*/
+}
+
+
+/*/----*innerFrame 공간-----------------*/
+div#innerFrame{
+    width: 620px;
+    height: 100px;
+
+/*    border: 4px solid #f00;*/
+
+/*    transition: all 2s;*/
+}
+
+/*/----*innerFrame 공간-----------------*/
+
+
+
+span{
+    width: 200px;
+    height: 100px;
+    font-size: 30px;
+    text-align: center;
+/*    border: 1px solid #000;*/
+/*    display: inline-block;*/
+
+    float: left;
+}
